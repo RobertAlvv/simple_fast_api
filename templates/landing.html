@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TODO LIST DEMO - Descarga nuestra app</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background: #4CAF50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .hero img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+
+    .download-buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .download-buttons a {
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .download-buttons img {
+      width: 150px;
+      transition: transform 0.3s ease;
+    }
+
+    .download-buttons img:hover {
+      transform: scale(1.05);
+    }
+
+    section.info {
+      background: #fff;
+      padding: 40px 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section.info h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #4CAF50;
+    }
+
+    section.info p {
+      font-size: 1.1rem;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+      }
+
+      .hero-content {
+        flex: 1;
+        padding-right: 20px;
+      }
+
+      .hero img {
+        flex: 1;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>TODO LIST DEMO</h1>
+      <p>Organiza tus tareas de forma sencilla y eficiente</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-content">
+        <h2>¡Descarga ahora nuestra App!</h2>
+        <p>TODO LIST DEMO es la aplicación ideal para llevar el control de tus actividades diarias, recordatorios y proyectos personales. Disponible para iOS y Android.</p>
+        <div class="download-buttons">
+          <!-- Reemplaza los enlaces '#' por la URL correspondiente de cada tienda -->
+          <a href="#" target="_blank">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Descargar en App Store">
+          </a>
+          <a href="#" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Descargar en Play Store">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2>Características</h2>
+      <p>Con TODO LIST DEMO, podrás agregar, editar y eliminar tareas, asignar prioridades y fechas de vencimiento, y disfrutar de una interfaz intuitiva y moderna. La aplicación se sincroniza en la nube, permitiéndote acceder a tus datos desde cualquier dispositivo.</p>
+      <p>Además, cuenta con recordatorios automáticos, categorías personalizadas y una sección de estadísticas para que puedas medir tu productividad.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 TODO LIST DEMO. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
